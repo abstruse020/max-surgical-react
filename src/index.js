@@ -1,4 +1,10 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+// import * as mdb from 'mdb-ui-kit'; // lib
+// import { Input } from 'mdb-ui-kit'; // module
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
