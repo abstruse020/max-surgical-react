@@ -5,74 +5,73 @@ import PropTypes from 'prop-types'
 
 function socialMedia () {
   return(
-  <section class="mb-4 bg-dark">
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-      ><i class="fab fa-facebook-f"></i
+  <div className="bg-light">
+    <a className="btn btn-floating m-1" href="#!" role="button"
+      ><i className="fab fa-facebook-f"></i
     ></a>
 
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-      ><i class="fab fa-twitter"></i
+  <a className="btn btn-floating m-1" href="#!" role="button"
+      ><i className="fab fa-twitter"></i
     ></a>
 
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-      ><i class="fab fa-google"></i
+  <a className="btn btn-floating m-1" href="#!" role="button"
+      ><i className="fab fa-google"></i
     ></a>
 
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-      ><i class="fab fa-instagram"></i
+  <a className="btn btn-floating m-1" href="#!" role="button"
+      ><i className="fab fa-instagram"></i
     ></a>
 
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-      ><i class="fab fa-linkedin-in"></i
+  <a className="btn btn-floating m-1" href="#!" role="button"
+      ><i className="fab fa-linkedin-in"></i
     ></a>
 
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-      ><i class="fab fa-github"></i
+  <a className="btn btn-floating m-1" href="#!" role="button"
+      ><i className="fab fa-github"></i
     ></a>
-  </section>
-
+</div>
+  )
+}
+function socialMedia_option_2(){
+  return(
+    <div>
+      <a href="" className="m-4 text-reset">
+        <i className="fab fa-facebook-f"></i>
+      </a>
+      <a href="" className="m-4 text-reset">
+        <i className="fab fa-twitter"></i>
+      </a>
+      <a href="" className="m-4 text-reset">
+        <i className="fab fa-google"></i>
+      </a>
+      <a href="" className="m-4 text-reset">
+        <i className="fab fa-instagram"></i>
+      </a>
+      <a href="" className="m-4 text-reset">
+        <i className="fab fa-linkedin"></i>
+      </a>
+      <a href="" className="m-4 text-reset">
+        <i className="fab fa-github"></i>
+      </a>
+    </div>
   )
 }
 
 function Footer (){
   return (
-    <footer class="text-center text-lg-start bg-light text-muted">
-      <section
-        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-      >
-
-        <div class="me-5 d-none d-lg-block">
+    <footer className="text-center text-lg-start bg-light text-muted">
+      <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div className="justify-content-center my-auto">
           <span>Get connected with us on social networks:</span>
         </div>
-
-        <div>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-google"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
+        {socialMedia()}
       </section>
-
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          <div class="row mt-3">
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3"></i>Company name
+      <section className="">
+        <div className="container text-center text-md-start mt-5">
+          <div className="row mt-3">
+            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">
+                <i className="fas fa-gem me-3"></i>Max Surgical Equipments
               </h6>
               <p>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum
@@ -81,59 +80,63 @@ function Footer (){
             </div>
 
 
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">
                 Products
               </h6>
               <p>
-                <a href="#!" class="text-reset">Angular</a>
+                <a href="#!" className="text-reset">Angular</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">React</a>
+                <a href="#!" className="text-reset">React</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Vue</a>
+                <a href="#!" className="text-reset">Vue</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Laravel</a>
+                <a href="#!" className="text-reset">Laravel</a>
               </p>
             </div>
 
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
+            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">
                 Useful links
               </h6>
               <p>
-                <a href="#!" class="text-reset">Pricing</a>
+                <a href="#!" className="text-reset">Pricing</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Settings</a>
+                <a href="#!" className="text-reset">Settings</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Orders</a>
+                <a href="#!" className="text-reset">Orders</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Help</a>
+                <a href="https://storyset.com/idea">Idea illustrations by Storyset</a>
               </p>
             </div>
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
+            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">
                 Contact
               </h6>
-              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <p><i className="fas fa-home me-3"></i>174 DH2 colony New Jankipuram<br/> Lucknow, UP</p>
               <p>
-                <i class="fas fa-envelope me-3"></i>
-                contact@maxsurgicalequipments.co.in
+                <i className="fas fa-envelope"></i>
+                <span>contact@maxsurgicalequipments.co.in</span>
               </p>
-              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+              <p>
+                <i className="fas fa-envelope me-3"></i>
+                <span>maxsurgicalequipments@gmail.com</span>
+              </p>
+              <p><i className="fas fa-phone me-3"></i> + 91 895 781 8808</p>
+              <p><i className="fas fa-phone me-3"></i> + 91 895 781 8808</p>
             </div>
           </div>
         </div>
       </section>
-      <div class="text-center p-4" style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}>
+      <div className="text-center p-4" style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}>
         © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">Maxsurgicalequipments.co.in</a>
       </div>
     </footer>
   )

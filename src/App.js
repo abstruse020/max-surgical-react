@@ -5,8 +5,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import './App.css'
 import Nav from './components/pages/Nav';
-import Footer from './components/pages/Footer.jsx';
+import Footer from './components/pages/Footer';
 import Homepage from './components/pages/Homepage';
 import AboutUs from './components/pages/AboutUs';
 
