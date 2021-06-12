@@ -112,7 +112,7 @@ function Footer (){
                 <a href="#!" className="text-reset">Orders</a>
               </p>
               <p>
-                <a href="https://storyset.com/idea">Idea illustrations by Storyset</a>
+                <a href="https://storyset.com/idea" target="_blank">Idea illustrations by Storyset</a>
               </p>
             </div>
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -120,16 +120,20 @@ function Footer (){
                 Contact
               </h6>
               <p><i className="fas fa-home me-3"></i>174 DH2 colony New Jankipuram<br/> Lucknow, UP</p>
-              <p>
-                <i className="fas fa-envelope"></i>
-                <span>contact@maxsurgicalequipments.co.in</span>
-              </p>
+              {
+              // <p>
+              //   <i className="fas fa-envelope"></i>
+              //   <span>contact@maxsurgicalequipments.co.in</span>
+              // </p>
+              }
               <p>
                 <i className="fas fa-envelope me-3"></i>
                 <span>maxsurgicalequipments@gmail.com</span>
               </p>
               <p><i className="fas fa-phone me-3"></i> + 91 895 781 8808</p>
-              <p><i className="fas fa-phone me-3"></i> + 91 895 781 8808</p>
+              {
+              // <p><i className="fas fa-phone me-3"></i> + 91 895 781 8808</p>
+              }
             </div>
           </div>
         </div>
