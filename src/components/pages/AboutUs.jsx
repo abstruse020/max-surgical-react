@@ -73,7 +73,7 @@ function AboutUs() {
     bodyText: 'body-text-on-white'
   }
   return (
-    <section id="about_us_section" className="p-0 mb-3 mt-3">
+    <section id="about_us_section" className="p-0 my-3 mx-2">
       <TransparentCard
         header={aboutUs.header}
         cardBody={aboutUs.cardBody}

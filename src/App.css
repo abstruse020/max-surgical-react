@@ -28,3 +28,9 @@ body{
   color: #000000;
   opacity: 60%;
 }
+.heading-text{
+  color: #56d0ff;
+  font-size: 2rem;
+  font-weight: bolder;
+  transition: opacity 400ms;
+}
