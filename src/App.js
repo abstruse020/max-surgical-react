@@ -10,7 +10,7 @@ import Nav from './components/pages/Nav';
 import Footer from './components/pages/Footer';
 import Homepage from './components/pages/Homepage';
 import AboutUs from './components/pages/AboutUs';
-
+import Products from './components/pages/Products';
 function App() {
   return (
     <Router >
@@ -19,6 +19,9 @@ function App() {
         <Switch>
         <Route path="/about">
           <AboutUs />
+        </Route>
+        <Route path="/products">
+          <Products/>
         </Route>
         <Route path="/">
           <Homepage />

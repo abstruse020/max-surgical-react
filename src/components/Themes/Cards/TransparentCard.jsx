@@ -11,13 +11,13 @@ function TransparentCard({header,cardBody, colors={bg:"bg-white",header:"",bodyT
           </h2>
           <div className="card-body d-flex row pt-0">
             <div className={image && imagePosition==1 ? 'col-md-5':''}>
-              {image && imagePosition==1 ? <ImageHolder image={image} /> : null}
+              {image && imagePosition==1 ? <ImageHolder image={image} imgMaxWidth={'300px'} /> : null}
             </div>
             <div className={(image ? 'col-md-7' : '') + ' d-flex align-items-center'}>
               <span className={"card-text text-justify "+ colors.bodyText}>{cardBody.body}</span>
             </div>
             <div className={image && imagePosition==2 ? 'col-md-5':''}>
-              {image && imagePosition==2 ? <ImageHolder image={image} /> : null}
+              {image && imagePosition==2 ? <ImageHolder image={image} imgMaxWidth={'300px'} /> : null}
             </div>
           </div>
         </div>
