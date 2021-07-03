@@ -61,7 +61,7 @@ function Nav (){
         </div>
       </div>
       <nav className="navbar navbar-expand-md navbar-light px-1 primary-blue">
-        <Link className="header-text-on-blue nav-link" to="/"><i class="fas fa-home"></i>Home</Link>
+        <Link className="header-text-on-blue nav-link" to="."><i class="fas fa-home"></i>Home</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -74,13 +74,13 @@ function Nav (){
               // </li>
             }
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About Us</Link>
+              <Link className="nav-link" to="about">About Us</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/products">Products</Link>
+              <Link className="nav-link" to="products">Products</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/career">Career</Link>
+              <Link className="nav-link" to="career">Career</Link>
             </li>
             {
               //<li className="nav-item dropdown">

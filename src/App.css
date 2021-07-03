@@ -15,20 +15,20 @@ body{
 .header-text-on-white{
   color: #56d0ff;
   /* text-transform: full-width; */
-  /* opacity: 87%; */
+  /* opacity: 0.87; */
 }
 .body-text-on-white{
   color: #000000;
-  opacity: 60%;
+  opacity: 0.6;
 }
 .header-text-on-blue{
   color: white;
   /* text-transform: full-width; */
-  /* opacity: 87%; */
+  /* opacity: 0.87; */
 }
 .body-text-on-blue{
   color: #000000;
-  opacity: 60%;
+  opacity: 0.6;
 }
 .heading-text{
   color: #56d0ff;
