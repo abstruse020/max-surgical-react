@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/max-surgical-react/static/css/main.1989e1b7.chunk.css",
-    "main.js": "/max-surgical-react/static/js/main.1e6118cd.chunk.js",
-    "main.js.map": "/max-surgical-react/static/js/main.1e6118cd.chunk.js.map",
+    "main.js": "/max-surgical-react/static/js/main.aabfe9a8.chunk.js",
+    "main.js.map": "/max-surgical-react/static/js/main.aabfe9a8.chunk.js.map",
     "runtime-main.js": "/max-surgical-react/static/js/runtime-main.a5e23f83.js",
     "runtime-main.js.map": "/max-surgical-react/static/js/runtime-main.a5e23f83.js.map",
     "static/css/2.658248ec.chunk.css": "/max-surgical-react/static/css/2.658248ec.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.658248ec.chunk.css",
     "static/js/2.67eefbd6.chunk.js",
     "static/css/main.1989e1b7.chunk.css",
-    "static/js/main.1e6118cd.chunk.js"
+    "static/js/main.aabfe9a8.chunk.js"
   ]
 }
