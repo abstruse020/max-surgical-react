@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/max-surgical-react/static/css/main.1989e1b7.chunk.css",
+    "main.js": "/max-surgical-react/static/js/main.1e6118cd.chunk.js",
+    "main.js.map": "/max-surgical-react/static/js/main.1e6118cd.chunk.js.map",
+    "runtime-main.js": "/max-surgical-react/static/js/runtime-main.a5e23f83.js",
+    "runtime-main.js.map": "/max-surgical-react/static/js/runtime-main.a5e23f83.js.map",
+    "static/css/2.658248ec.chunk.css": "/max-surgical-react/static/css/2.658248ec.chunk.css",
+    "static/js/2.67eefbd6.chunk.js": "/max-surgical-react/static/js/2.67eefbd6.chunk.js",
+    "static/js/2.67eefbd6.chunk.js.map": "/max-surgical-react/static/js/2.67eefbd6.chunk.js.map",
+    "static/js/3.670e8142.chunk.js": "/max-surgical-react/static/js/3.670e8142.chunk.js",
+    "static/js/3.670e8142.chunk.js.map": "/max-surgical-react/static/js/3.670e8142.chunk.js.map",
+    "index.html": "/max-surgical-react/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/max-surgical-react/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.1989e1b7.chunk.css.map": "/max-surgical-react/static/css/main.1989e1b7.chunk.css.map",
+    "static/js/2.67eefbd6.chunk.js.LICENSE.txt": "/max-surgical-react/static/js/2.67eefbd6.chunk.js.LICENSE.txt",
+    "static/media/heroSectionImage.46fc7229.svg": "/max-surgical-react/static/media/heroSectionImage.46fc7229.svg",
+    "static/media/heroSectionImage2.32997404.jpg": "/max-surgical-react/static/media/heroSectionImage2.32997404.jpg",
+    "static/media/logo_top_v2.780a2683.png": "/max-surgical-react/static/media/logo_top_v2.780a2683.png",
+    "static/media/vision-liiustration.a6adc9c0.svg": "/max-surgical-react/static/media/vision-liiustration.a6adc9c0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5e23f83.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.67eefbd6.chunk.js",
+    "static/css/main.1989e1b7.chunk.css",
+    "static/js/main.1e6118cd.chunk.js"
+  ]
+}
