@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ImageHolder from '../ImageHandlers/index.jsx'
+import ImageHolder from '../ImageHolders/index.jsx'
 import './ProductsCard.css'
 class ProductsCard extends Component {
   constructor(props) {

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ImageHolder from '../ImageHandlers/index.jsx'
+import ImageHolder from '../ImageHolders/index.jsx'
 
 function TransparentCard({header,cardBody, colors={bg:"bg-white",header:"",bodyText:"text-secondary"}, image, imagePosition=1}) {
     return (

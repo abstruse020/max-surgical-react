@@ -109,7 +109,7 @@ function Footer (){
                 <a href="#!" className="text-reset">Settings</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">Orders</a>
+                <a href="https://www.freepik.com/vectors/medical" target='_blank' className='text-reset'>Medical vector created by macrovector - www.freepik.com</a>
               </p>
               <p>
                 <a href="https://storyset.com/idea" target="_blank">Idea illustrations by Storyset</a>

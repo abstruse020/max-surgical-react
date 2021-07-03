@@ -32,7 +32,7 @@ body{
 }
 .heading-text{
   color: #56d0ff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   transition: opacity 400ms;
 }
