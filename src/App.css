@@ -1,6 +1,8 @@
 body{
   font-size: 0.9rem;
   font-family: Source serif pro;
+  padding: 0px;
+  margin: 0px;
 }
 
 .primary-blue{
@@ -8,23 +10,47 @@ body{
 }
 
 .text-transition-aboutus{
-  transition: widtd 2s;
+  transition: width 2s;
 }
 .header-text-on-white{
   color: #56d0ff;
   /* text-transform: full-width; */
-  /* opacity: 87%; */
+  /* opacity: 0.87; */
 }
 .body-text-on-white{
   color: #000000;
-  opacity: 60%;
+  opacity: 0.6;
 }
 .header-text-on-blue{
   color: white;
   /* text-transform: full-width; */
-  /* opacity: 87%; */
+  /* opacity: 0.87; */
 }
 .body-text-on-blue{
   color: #000000;
-  opacity: 60%;
+  opacity: 0.6;
 }
+.heading-text{
+  color: #56d0ff;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  opacity: 0.9;
+  transition: 2s ease;
+}
+.heading-text:hover{
+  opacity: 0.8;
+  /*font-size: 1.4rem;*/
+  color: red;
+  transition: 0.1s ease;
+}
+
+/*span,
+h1,h2,h3,h4,h5,Link,a{
+  transition: 2s ease;
+}
+
+span:hover,
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,Link:hover,a:hover{
+  color: red;
+  transition: 0.3s ease;
+}*/
