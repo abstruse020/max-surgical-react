@@ -1,6 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import ProductsCard from '../Themes/Cards/ProductsCard';
-import missionLogo from '../../Assets/vision-liiustration.svg'
+import missionLogo from '../../Assets/vision-liiustration.svg';
+import doctors_coat from '../../Assets/customized_doctors_coat.jpeg';
+import disposable_beadsheets from '../../Assets/disposable_beadsheets_40gsm.jpeg';
+import doctors_gown from '../../Assets/doctros_gown_40_gsm.jpeg';
+import doctors_gown_2 from '../../Assets/doctros_gown_55_gsm.jpeg';
+import latex_gloves from '../../Assets/latex_gloves_grade_a.jpeg';
+import n95_mask from '../../Assets/n95_mask_6_layers.jpeg';
+import nitrileGloves from '../../Assets/nitrile_gloves.jpeg';
+import ppeKit from '../../Assets/ppe_kit_all_gsm.jpeg';
 
 export default class Products extends Component {
   constructor(props) {
@@ -9,45 +17,130 @@ export default class Products extends Component {
   products() {
     return [
       {
-        title: 'Product1',
-        body: 'this is product1 body with very long description which will wrap automatically',
-        overlayContents: 'this is overlay for prod1',
-        image: missionLogo
+        title: 'Doctor\'s Coat',
+        body: 'Customized doctor\'s coat',
+        overlayContents: 'Contact us for Bulk Purchase',
+        image: doctors_coat
       },
       {
-        title: 'Product2',
-        body: 'this is product2 body',
-        overlayContents: 'this is overlay for prod2',
-        image: missionLogo
+        title: 'Disposable Beadsheets',
+        body: 'Disposable beadsheets for hospital beds',
+        overlayContents: 'We have various color options',
+        image: disposable_beadsheets
       },
       {
-        title: 'Product3',
-        body: 'this is product3 body',
-        overlayContents: 'this is overlay for prod3',
-        image: missionLogo
+        title: 'Doctor\'s Gown',
+        body: 'Doctors Gown of 40 gsm',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: doctors_gown
       },
       {
-        title: 'Product4',
-        body: 'this is product4 body',
-        overlayContents: 'this is overlay for prod4'
+        title: 'Doctor\'s Gown',
+        body: 'Doctors Gown non woven of 55 gsm disposable, customizable',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: doctors_gown_2
       },
       {
-        title: 'Product5',
-        body: 'this is product5 body',
-        overlayContents: 'this is overlay for prod5',
-        image: missionLogo
+        title: 'Latex Gloves',
+        body: 'Latex Gloves Grade A',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: latex_gloves
       },
       {
-        title: 'no image product',
-        body: 'this is body of no image product'
+        title: 'N 95 Mask',
+        body: '6 Layered N 95 Mask',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: n95_mask
       },
       {
-        image: missionLogo,
-        overlayContents: 'this has only image'
+        title: 'Nitrile Gloves',
+        body: 'Blue colored Nitriled Gloves',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: nitrileGloves
       },
       {
-        footer: 'This is the footer',
-        body: 'Body for only footer'
+        title: 'PPE Kit',
+        body: 'All gsm ppe kit available (cover all PPE as well)',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: ppeKit
+      },
+      {
+        title: '3 Ply Mask',
+        body: 'Best quality 3 ply mask',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: null
+      },
+      {
+        title: 'Sanitizer',
+        body: '80% Alcohal',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: null
+      },
+      {
+        title: 'Face Shield',
+        body: 'Double laminated (200 micron available as well)',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: null
+      },
+      {
+        title: 'Sanitizer Dispenser',
+        body: 'Sensor based sanitizer dispenser 8L',
+        overlayContents: 'Single piece available for sale',
+        image: null
+      },
+      {
+        title: 'Sanitizer Stand',
+        body: 'Foot operated sanitizer stand',
+        overlayContents: 'Single piece available for sale',
+        image: null
+      },
+      {
+        title: 'Disposable Towel',
+        body: 'Small and Large disposable towels',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: null
+      },
+      {
+        title: 'Beadsheets',
+        body: 'With pillow cover Non Woven (84*84) 40 GSM',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: null
+      },
+      {
+        title: 'Beadsheets',
+        body: 'With pillow cover Woven (90*55) fine quality',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: null
+      },
+      {
+        title: 'Shoe Cover',
+        body: '20 GSM Shoe Cover',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: null
+      },
+      {
+        title: 'Blankets',
+        body: 'fine quality blankets',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: null
+      },
+      {
+        title: 'Doctors Gown',
+        body: 'Woven doctor\'s gown colors- Blue and Green',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: null
+      },
+      {
+        title: 'Patient\'s Dress Male',
+        body: 'Male patient\'s dress Blue Check',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: null
+      },
+      {
+        title: 'Patient\'s Dress Female',
+        body: 'Female patient\'s dress Pink Check',
+        overlayContents: 'Contact Us for Bulk Purchase',
+        image: null
       },
     ]
   }
