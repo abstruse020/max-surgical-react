@@ -2,13 +2,20 @@ import React, { Component } from 'react';
 import ProductsCard from '../Themes/Cards/ProductsCard';
 import missionLogo from '../../Assets/vision-liiustration.svg';
 import doctors_coat from '../../Assets/customized_doctors_coat.jpeg';
-import disposable_beadsheets from '../../Assets/disposable_beadsheets_40gsm.jpeg';
+import disposable_beadsheets from '../../Assets/disposable_beadsheets_40gsm.png';
 import doctors_gown from '../../Assets/doctros_gown_40_gsm.jpeg';
 import doctors_gown_2 from '../../Assets/doctros_gown_55_gsm.jpeg';
 import latex_gloves from '../../Assets/latex_gloves_grade_a.jpeg';
 import n95_mask from '../../Assets/n95_mask_6_layers.jpeg';
 import nitrileGloves from '../../Assets/nitrile_gloves.jpeg';
-import ppeKit from '../../Assets/ppe_kit_all_gsm.jpeg';
+import ppeKit from '../../Assets/ppe_kit_all_gsm.jpg';
+import sanitizerStand from '../../Assets/sanitizer_stand.png';
+import faceShield from '../../Assets/face_shield.jpg';
+import sanitizerDispenser from '../../Assets/dispenser.png';
+import shoeCover from '../../Assets/shoe_cover.jpg';
+import hospitalBeadsheets from '../../Assets/hospital_beadsheets.jpeg';
+import patientDressMale from '../../Assets/patient_dress_male.jpg';
+import threePlyMask from '../../Assets/Three_ply_mask.jpg';
 
 export default class Products extends Component {
   constructor(props) {
@@ -19,7 +26,7 @@ export default class Products extends Component {
       {
         title: 'Doctor\'s Coat',
         body: 'Customized doctor\'s coat',
-        overlayContents: 'Contact us for Bulk Purchase',
+        overlayContents: 'Contact Us for Bulk Purchase',
         image: doctors_coat
       },
       {
@@ -60,7 +67,7 @@ export default class Products extends Component {
       },
       {
         title: 'PPE Kit',
-        body: 'All gsm ppe kit available (cover all PPE as well)',
+        body: 'All gsm ppe kit available (Cover All PPE available as well)',
         overlayContents: 'Contact Us for Bulk Purchase',
         image: ppeKit
       },
@@ -68,7 +75,7 @@ export default class Products extends Component {
         title: '3 Ply Mask',
         body: 'Best quality 3 ply mask',
         overlayContents: 'Contact Us for Bulk Purchase',
-        image: null
+        image: threePlyMask
       },
       {
         title: 'Sanitizer',
@@ -80,19 +87,19 @@ export default class Products extends Component {
         title: 'Face Shield',
         body: 'Double laminated (200 micron available as well)',
         overlayContents: 'Contact Us for Bulk Purchase',
-        image: null
+        image: faceShield
       },
       {
         title: 'Sanitizer Dispenser',
         body: 'Sensor based sanitizer dispenser 8L',
         overlayContents: 'Single piece available for sale',
-        image: null
+        image: sanitizerDispenser
       },
       {
         title: 'Sanitizer Stand',
         body: 'Foot operated sanitizer stand',
         overlayContents: 'Single piece available for sale',
-        image: null
+        image: sanitizerStand
       },
       {
         title: 'Disposable Towel',
@@ -104,7 +111,7 @@ export default class Products extends Component {
         title: 'Beadsheets',
         body: 'With pillow cover Non Woven (84*84) 40 GSM',
         overlayContents: 'Contact Us for Bulk Purchase',
-        image: null
+        image: hospitalBeadsheets
       },
       {
         title: 'Beadsheets',
@@ -116,7 +123,7 @@ export default class Products extends Component {
         title: 'Shoe Cover',
         body: '20 GSM Shoe Cover',
         overlayContents: 'Contact Us for Bulk Purchase',
-        image: null
+        image: shoeCover
       },
       {
         title: 'Blankets',
@@ -134,7 +141,7 @@ export default class Products extends Component {
         title: 'Patient\'s Dress Male',
         body: 'Male patient\'s dress Blue Check',
         overlayContents: 'Contact Us for Bulk Purchase',
-        image: null
+        image: patientDressMale
       },
       {
         title: 'Patient\'s Dress Female',

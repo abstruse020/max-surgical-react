@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ImageHolder from '../ImageHolders/index.jsx'
 import './ProductsCard.css'
+
 class ProductsCard extends Component {
   constructor(props) {
     super(props);
@@ -15,12 +16,12 @@ class ProductsCard extends Component {
     return (
       <div className={'card products-card-container'}>
         {
-          this.image &&
+          // this.image &&
           <div>
             <img className="card-img" src={this.image} alt=""/>
-            <div className="card-img-overlay products-card-overlay">
+            <div className="card-img-overlay products-card-overlay d-flex align-items-center justify-content-center">
               <h5 className="card-title">{this.overlayHeading}</h5>
-              <p className="card-text">{this.overlayBody}</p>
+              <p className="card-text h3">{this.overlayBody}</p>
             </div>
           </div>
         }

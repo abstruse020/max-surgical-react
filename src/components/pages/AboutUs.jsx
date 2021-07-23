@@ -8,7 +8,7 @@ function AboutUs() {
     header: 'About Us',
     cardBody: {
       title:'',
-      body: 'We are Dealers and Manufacturers of Medical Clothing Items and among the acknowledged suppliers of Healthcare products in Lucknow. This enterprise has made to offer top-notch and best-in-class products to their clients each time. Over time, it has made an indelible mark in the healthcare industry. One can choose from a diverse and comprehensive product range of surgical, medical, and virus protection kits. The products carry a high degree of precision, attributing a certain degree of reliability.'
+      body: 'We are Dealer and Manufacturer of Medical Clothing Items and among the acknowledged suppliers of Healthcare products in Lucknow. This enterprise has made to offer top-notch and best-in-class products to their clients each time. Over time, it has made an indelible mark in the healthcare industry. One can choose from a diverse and comprehensive product range of surgical, medical, and virus protection kits. The products carry a high degree of precision, attributing a certain degree of reliability.'
     }
   }
   const ourMission = {

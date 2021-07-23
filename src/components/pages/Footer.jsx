@@ -6,29 +6,29 @@ import PropTypes from 'prop-types'
 function socialMedia () {
   return(
   <div className="bg-light">
-    <a className="btn btn-floating m-1" href="#!" role="button"
-      ><i className="fab fa-facebook-f"></i
-    ></a>
+    <a className="btn btn-floating m-1" href="#!" role="button">
+      <i className="fab fa-facebook-f"></i>
+    </a>
 
-  <a className="btn btn-floating m-1" href="#!" role="button"
-      ><i className="fab fa-twitter"></i
-    ></a>
+    <a className="btn btn-floating m-1" href="#!" role="button">
+      <i className="fab fa-twitter"></i>
+    </a>
 
-  <a className="btn btn-floating m-1" href="#!" role="button"
-      ><i className="fab fa-google"></i
-    ></a>
+    <a className="btn btn-floating m-1" href="#!" role="button">
+      <i className="fab fa-google"></i>
+    </a>
 
-  <a className="btn btn-floating m-1" href="#!" role="button"
-      ><i className="fab fa-instagram"></i
-    ></a>
+    <a className="btn btn-floating m-1" href="#!" role="button">
+      <i className="fab fa-instagram"></i>
+    </a>
 
-  <a className="btn btn-floating m-1" href="#!" role="button"
-      ><i className="fab fa-linkedin-in"></i
-    ></a>
+    {/*<a className="btn btn-floating m-1" href="#!" role="button">
+      <i className="fab fa-linkedin-in"></i>
+    </a>*/}
 
-  <a className="btn btn-floating m-1" href="#!" role="button"
-      ><i className="fab fa-github"></i
-    ></a>
+   {/* <a className="btn btn-floating m-1" href="#!" role="button">
+      <i className="fab fa-github"></i>
+    </a>*/}
 </div>
   )
 }
@@ -74,8 +74,7 @@ function Footer (){
                 <i className="fas fa-gem me-3"></i>Max Surgical Equipments
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit.
+                We are Dealer and Manufacturer of Medical Clothing Items.
               </p>
             </div>
 
